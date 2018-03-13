@@ -14,12 +14,12 @@
 }
 
 .podrecznik-con {
-	background: #ff7c75;
+	background: rgb(236,118,144);
 	color: white;
 }
 
 .footer-con {
-	background: #31394d;
+	background: rgb(51,54,89);
 	color: #cccccc;
 }
 
@@ -69,7 +69,7 @@
 
 .button-dark {
 	color: white;
-	background: #4a4a62;
+	background: rgb(51,54,89);
 	/*box-shadow: 1px 1px 2px #000;*/
 }
 
