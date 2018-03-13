@@ -1,0 +1,92 @@
+/*kontenery*/
+
+.benefits-con {
+	background-image: url(../assets/images.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+
+}
+
+.nasze-app-con {
+	background: #eff0ff;
+}
+
+.podrecznik-con {
+	background: #ff7c75;
+	color: white;
+}
+
+.footer-con {
+	background: #31394d;
+	color: #cccccc;
+}
+
+
+/*paddingi*/
+.container-top-bottom {
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+	}
+
+	.container-top {
+		padding-top: 4rem;
+	}
+.container-left-right {
+	padding-left: 6rem;
+	padding-right: 6rem;
+}
+
+@media only screen and (max-width:48rem) {
+	.container-left-right {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+	
+
+
+}
+
+
+/*buttony*/
+
+.button {
+	background: none;
+	border: none;
+	letter-spacing: 1px;
+	margin: 0px;
+	padding: 0.5rem 2rem;
+}
+
+.button-outline-white {
+	border: 1px solid white;
+	color: white;
+
+}
+
+
+.button-dark {
+	color: white;
+	background: #4a4a62;
+	/*box-shadow: 1px 1px 2px #000;*/
+}
+
+
+/*img*/
+
+.male-logo-app {
+	width: 5rem;
+
+}
+
+.image-person-av {
+	height: 4rem;
+	width: 4rem;
+	border-radius: 100%;
+}
+
+.img-all-width {
+	width: 100%;
+}
