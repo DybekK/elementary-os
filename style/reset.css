@@ -4,9 +4,23 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+h1,h2,h3,h4,h5,h6{
+		font-family: 'HelveticaBold', sans-serif;
+
+}
+
+
 hr {
 	height: 1px;
 	color: #cecece;
 	background-color: #cecece;
 	border: none;
+}
+
+
+
+@font-face {
+  font-family: 'HelveticaBold';
+  src: url('../fonts/Helvetica-Bold.otf'); /* IE9 Compat Modes */
+  
 }
