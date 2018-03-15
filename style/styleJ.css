@@ -14,38 +14,46 @@
 }
 
 .podrecznik-con {
-	background: rgb(236,118,144);
+	background: rgb(236, 118, 144);
 	color: white;
 }
 
 .footer-con {
-	background: rgb(51,54,89);
+	background: rgb(51, 54, 89);
 	color: #cccccc;
 }
 
 
 /*paddingi*/
-.container-top-bottom {
-		padding-top: 4rem;
-		padding-bottom: 4rem;
-	}
 
-	.container-top {
-		padding-top: 4rem;
-	}
+.container-top-bottom {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
+.container-top {
+	padding-top: 4rem;
+}
+
 .container-left-right {
 	padding-left: 6rem;
 	padding-right: 6rem;
 }
+
+.container-top-little {
+	padding-top: 1rem;
+}
+
+.container-bottom-little {
+	padding-bottom: 1rem;
+}
+
 
 @media only screen and (max-width:48rem) {
 	.container-left-right {
 		padding-left: 1rem;
 		padding-right: 1rem;
 	}
-
-	
-
 
 }
 
@@ -58,6 +66,8 @@
 	letter-spacing: 1px;
 	margin: 0px;
 	padding: 0.5rem 2rem;
+	transition: .3s ease;
+
 }
 
 .button-outline-white {
@@ -66,12 +76,26 @@
 
 }
 
+.button-outline-white:hover {
+
+	color: #777777;
+	background: white;
+}
+
+
 
 .button-dark {
 	color: white;
-	background: rgb(51,54,89);
-	/*box-shadow: 1px 1px 2px #000;*/
+	background: rgb(51, 54, 89);
+	border: 1px solid transparent;
 }
+
+.button-dark:hover {
+	color: rgb(51, 54, 89);
+	border: 1px solid rgb(51, 54, 89);
+	background: transparent;
+}
+
 
 
 /*img*/
@@ -89,4 +113,27 @@
 
 .img-all-width {
 	width: 100%;
+}
+
+.input-nostyled {
+	border: 0;
+	padding: .5rem;
+}
+
+
+/* cień */
+
+.shadow-dark {
+	box-shadow: 1px 1px 1px rgb(51, 54, 89);
+}
+
+
+/*maksymalna szerokosc tekstu*/
+
+@media only screen and (min-width: 62em) {
+	.max-of-text {
+		padding-left: 15rem;
+		padding-right: 15rem;
+
+	}
 }
