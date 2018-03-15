@@ -10,16 +10,15 @@
 }
 
 .nasze-app-con {
-	background: #eff0ff;
-}
+	background: #f7f7f7;}
 
 .podrecznik-con {
-	background: rgb(236, 118, 144);
 	color: white;
+	background: linear-gradient(220deg, #ed9344, #9b3587);
 }
 
 .footer-con {
-	background: rgb(51, 54, 89);
+	background: #ffffff;
 	color: #cccccc;
 }
 
@@ -98,6 +97,20 @@
 
 
 
+.button-outline-dark {
+	border: 1px solid black;
+}
+
+
+
+.button-outline-dark:hover {
+	border: 1px solid transparent;
+	color: white;
+	background: black;
+}
+
+
+
 /*img*/
 
 .male-logo-app {
@@ -137,3 +150,9 @@
 
 	}
 }
+
+.container-bottom {
+	padding-bottom: 4rem;
+}
+
+
