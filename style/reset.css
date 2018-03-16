@@ -5,8 +5,9 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6{
-		font-family: 'HelveticaBold', sans-serif;
-
+		font-family: 'HelveticaLight', sans-serif;
+		font-weight: normal;
+		letter-spacing: 1px;
 }
 
 
@@ -22,5 +23,11 @@ hr {
 @font-face {
   font-family: 'HelveticaBold';
   src: url('../fonts/Helvetica-Bold.otf'); /* IE9 Compat Modes */
+  
+}
+
+@font-face {
+  font-family: 'HelveticaLight';
+  src: url('../fonts/HelveticaLt.ttf'); /* IE9 Compat Modes */
   
 }

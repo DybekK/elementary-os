@@ -64,7 +64,6 @@
 	border: none;
 	letter-spacing: 1px;
 	margin: 0px;
-	padding: 0.5rem 2rem;
 	transition: .3s ease;
 
 }
@@ -109,6 +108,12 @@
 	background: black;
 }
 
+.button-large{	padding: 1rem 4rem;
+}
+.button-small{
+		padding: 0.5rem 2rem;
+
+}
 
 
 /*img*/
