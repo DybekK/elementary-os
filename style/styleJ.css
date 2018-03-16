@@ -137,10 +137,12 @@
 /* cień */
 
 .shadow-dark {
-	box-shadow: 1px 1px 1px rgb(51, 54, 89);
+	box-shadow: 1px 1px 1px rgba(51, 54, 89,.3);
 }
 
-
+.shadow-light {
+	box-shadow: 1px 1px 1px rgba(200, 200, 200,.3);
+}
 /*maksymalna szerokosc tekstu*/
 
 @media only screen and (min-width: 62em) {
