@@ -1,4 +1,4 @@
-/*kontenery*/
+﻿/*kontenery*/
 
 .benefits-con {
 	background-image: url(../assets/images.jpg);
@@ -64,6 +64,7 @@
 	border: none;
 	letter-spacing: 1px;
 	margin: 0px;
+	padding:15px 25px 15px 25px;
 	transition: .3s ease;
 
 }
