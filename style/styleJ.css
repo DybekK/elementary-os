@@ -47,12 +47,18 @@
 	padding-bottom: 1rem;
 }
 
+	.img-all-width-mob {
+	width: 60%;
+}
 
 @media only screen and (max-width:48rem) {
 	.container-left-right {
 		padding-left: 1rem;
 		padding-right: 1rem;
 	}
+	.img-all-width-mob {
+	width: 100%;
+}
 
 }
 
