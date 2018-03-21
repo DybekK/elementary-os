@@ -211,10 +211,10 @@
 	.option-menu .media {
 		border-top: 1px solid white;
 		display: flex;
-		color: white;
 	}
 	.media a {
-		font-size: 1.3em;
+        color: white !important; 
+		font-size: 1.25em;
 		padding: 0.7em 1em 0.7em 1em;
 	}
 	#info-colors p {
@@ -229,7 +229,7 @@
 		top: 4em;
 		transform: translateX(-100%);
 	}
-	.option-menu a {
+	.option-menu .option {
         font-size: 0.83em;
 		color: white !important;
 	}
