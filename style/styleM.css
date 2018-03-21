@@ -232,7 +232,7 @@ iframe {
         background-color: #1e1e1e;
         flex-direction: column;
         position: absolute;
-        top: 9vh;
+        top: 4em;
         transform: translateX(-100%);
     }
     .option-menu a {
@@ -253,11 +253,9 @@ iframe {
         width: 7vh;
     }
     .option-menu.responsive-in {
-        top: 9vh;
         transform: translateX(0%);
         transition: 1.3s;
         width: 100%;
-        position: absolute;
         display: flex;
         transition: 0.5s;
         flex-direction: column;
