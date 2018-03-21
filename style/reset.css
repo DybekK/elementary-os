@@ -1,8 +1,11 @@
 body {
 	padding: 0;
 	margin: 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	overflow-x: hidden;
 }
+
+
 
 h1,h2,h3,h4,h5,h6{
 		font-family: 'HelveticaLight', sans-serif;
@@ -29,6 +32,11 @@ hr {
 	color: #cecece;
 	background-color: #cecece;
 	border: none;
+}
+
+iframe {
+	height: 40vh;
+	width: 100%;
 }
 
 
