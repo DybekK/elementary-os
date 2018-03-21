@@ -8,8 +8,6 @@
 .navbar {
 	position: fixed;
 	top: 0;
-	animation-duration: 7s;
-	animation-iteration-count: infinite;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -33,6 +31,11 @@
 	text-decoration: none;
 	color: black;
 }
+.icon-socialmedia a:hover{
+      animation-name: option;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+}
 
 .icon-socialmedia .fa-facebook-f {
 	font-size: 1.6em;
@@ -51,6 +54,7 @@
 	color: black;
 	display: block;
 	padding: 1.2em;
+   
 
 }
 
@@ -113,14 +117,13 @@
 	justify-content: center;
 	align-items: center;
 	background-color: rgb(51, 54, 89);
-	height: 30vh;
+    padding: 1em 0 1em 0;
 }
 
 .hero-box:hover {
 	background-color: #fff;
 	color: #3438b0;
 	transition: 0.3s;
-	padding-top: 0.2em;
 }
 
 .hero-box i {
@@ -131,7 +134,7 @@
 .hero-box p {
 	display: block;
 	text-align: center;
-	font-size: 1.3em;
+	font-size: 1em;
 }
 
 /*
@@ -227,6 +230,7 @@
 		transform: translateX(-100%);
 	}
 	.option-menu a {
+        font-size: 0.83em;
 		color: white !important;
 	}
 	.option-menu a:hover {
