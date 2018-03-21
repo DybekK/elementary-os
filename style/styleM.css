@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: Arial;
@@ -7,92 +7,100 @@ body{
 
 
 
-        .first-navbar {
-            width: 100%;
-            height: 9vh;
-        }
+.first-navbar {
+    width: 100%;
+    height: 9vh;
+}
 
-        .navbar {
-            position: sticky;
-            position: fixed;
-            top: 0;
-            animation-name: navbar;
-            animation-duration: 7s;
-            animation-iteration-count: infinite;
-            display: flex;
-            justify-content: flex-end;
-            height: 9vh;
-            width: 100%;
-            background-color: white;
-            border-bottom: 2px solid rgba( 236, 43, 43, 0.355);
-            z-index: 100;
-        }
+.navbar {
+    position: fixed;
+    top: 0;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    background-color: #e5e5e5;
+    z-index: 100;
+    height: 5em;
+   
+  
+}
 
-        .navbar p {
-            font-size: 3.7vh;
-            align-items: center;
-            color:  orange;
-            margin: 0;
-            display: flex;
-            flex: 1;
-            margin-left: 14vh;
-        }
+.navbar .icon-socialmedia {
+    position: absolute;
+    left: 20px;
+    display: flex;
+    align-items: center;
+}
 
-        .option-menu {
-            font-size: 2.5vh;
-            display: flex;
-            justify-content: flex-end;
-        }
-
-        .option-menu a:not(:first-child) {
-            text-decoration: none;
-            color: purple;
-            display: block;
-            padding: 1.2em;
-        }
-
-        .option-menu a:first-child {
-            text-decoration: none;
-            color: rgb(51, 54, 89);
-            font-weight: bold;
-            display: block;
-            padding: 1.2em 2em 1.2em 2em;
-        }
-
-        .option-menu a:hover {
-            color: white;
-            animation-name: option;
-            animation-duration: 5s;
-            animation-iteration-count: 1;
-        }
+.icon-socialmedia a{
+    font-size: 1.6em;
+    padding: 0 0.8em 0 0.8em;
+    text-decoration: none;
+    color: black;
+}
+.icon-socialmedia .fa-facebook-f{
+    font-size: 1.6em;
+    margin-left: 1em;
+}
 
 
+.option-menu {
+    font-size: 1.2em;
+    display: flex;
+    justify-content: flex-end;
+}
 
-        .icon {
-            display: none;
-        }
+.option-menu a:not(:first-child) {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 1.2em;
 
-        .icon div {
-            height: 0.6vh;
-            width: 4vh;
-            margin: 0.4vh 0 0.4vh 0;
-            background-color: black;
-            border-radius: 10px;
-        }
+}
+
+.media{
+    display: none;
+}
+
+.option-menu a:first-child {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 1.2em;
+}
+
+.option-menu a:hover {
+    color: white;
+    animation-name: option;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+
+
+.icon {
+    display: none;
+}
+
+.icon div {
+    padding: 0.15em;
+    width:2em;
+    margin: 0.26em;
+    background-color: black;
+    border-radius: 10px;
+}
 
 
 
 
-#hero{
+#hero {
     width: 100%;
 
 }
-#hero h1{
-        font-size: 5vh;
-}
-#hero p{
-    font-size: 4vh;
-}
+
+
 /*
 .hero-button{
     margin-top: 7vh;
@@ -105,29 +113,32 @@ body{
 }
 */
 
-.hero-box{
+.hero-box {
     color: white;
     flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:rgb(51, 54, 89);
+    background-color: rgb(51, 54, 89);
     height: 30vh;
 }
-.hero-box:hover{
+
+.hero-box:hover {
     background-color: #fff;
     color: #3438b0;
     transition: 0.3s;
     padding-top: 0.2em;
 }
-.hero-box i{
+
+.hero-box i {
 
     font-size: 3em;
 }
-.hero-box p{
+
+.hero-box p {
     display: block;
     text-align: center;
-    font-size:2.4vh !important;
+    font-size: 1.3em;
 }
 
 /*
@@ -136,119 +147,123 @@ body{
 }
 */
 
-
-.welcome-info-box{
+.welcome-info-box {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-.welcome-ul{
+
+.welcome-ul {
     justify-content: center;
     align-items: center;
     display: flex;
 }
-.welcome-ul li{
+
+.welcome-ul li {
     list-style: none;
     margin-top: 17px;
     font-size: 1.1em;
 }
-.welcome-ul li i{
+
+.welcome-ul li i {
     margin-right: 7px;
 }
-iframe{
+
+iframe {
     height: 40vh;
     width: 100%;
 }
-.offer-box{
+
+.offer-box {
     display: flex;
     justify-content: space-around;
 
 }
-.circle{
+
+.circle {
     height: 100px;
     width: 100px;
     border-radius: 60%;
     background-color: red;
-  
+
 }
 
- @keyframes navbar {
-            25% {
-                border-color: rgba( 224, 28, 231, 0.355);
-            }
-            50% {
-                border-color: rgba( 238, 93, 36, 0.355);
-            }
-            75% {
-                border-color: rgba( 19, 63, 184, 0.355);
-            }
-            100% {
-                border-color: rgba( 136, 253, 46, 0.355);
-            }
-        }
-
-        @keyframes option {
-            0% {
-                color: rgba( 0, 0, 0, 0.058);
-            }
-            25% {
-                color: black;
-            }
-        }
-
-        @keyframes option-responsive {
-            0% {
-                color: rgba( 0, 0, 0, 0.058);
-            }
-            25% {
-                color: white;
-            }
-        }
-
-        @media only screen and (max-width: 600px) {
-            #info-colors p{
-                font-size: 0.7em;
-            }
-            .option-menu {
-                display: flex;
-                width: 100%;
-                background-color: #1e1e1e;
-                flex-direction: column;
-                position: absolute;
-                top: 9vh;
-                transform: translateX(-100%);
-            }
-            .option-menu a {
-                color: white !important;
-            }
-            .option-menu a:hover {
-                animation-name: option-responsive !important;
-            }
-            .icon {
-                background-color: transparent;
-                margin: 1vh;
-                border: 0;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                height: 7vh;
-                width: 7vh;
-            }
-            .option-menu.responsive-in {
-                top: 9vh;
-                transform: translateX(0%);
-                transition: 1.3s;
-                width: 100%;
-                position: absolute;
-                display: flex;
-                transition: 0.5s;
-                flex-direction: column;
-            }
-            .option-menu.responsive-out {
-                transform: translateX(-100%);
-                transition: 0.5s;
-            }
-        }
 
 
+@keyframes option {
+    0% {
+        color: rgba( 0, 0, 0, 0.058);
+    }
+    25% {
+        color: black;
+    }
+}
+
+@keyframes option-responsive {
+    0% {
+        color: rgba( 0, 0, 0, 0.058);
+    }
+    25% {
+        color: white;
+    }
+}
+@media only screen and (max-width: 1060px){
+      .icon-socialmedia a{
+    display: none;
+}  
+}
+@media only screen and (max-width: 760px) {
+
+    .option-menu .media{
+        border-top: 1px solid white;
+        display: flex;
+        color: white;
+    }
+    .media a{
+        font-size: 1.3em;
+        padding:0.7em 1em 0.7em 1em;
+    }
+    #info-colors p {
+        font-size: 0.7em;
+    }
+    .option-menu {
+        display: flex;
+        width: 100%;
+        background-color: #1e1e1e;
+        flex-direction: column;
+        position: absolute;
+        top: 9vh;
+        transform: translateX(-100%);
+    }
+    .option-menu a {
+        color: white !important;
+    }
+    .option-menu a:hover {
+        animation-name: option-responsive !important;
+    }
+    .icon {
+        background-color: transparent;
+        margin: 1vh;
+        border: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 7vh;
+        width: 7vh;
+    }
+    .option-menu.responsive-in {
+        top: 9vh;
+        transform: translateX(0%);
+        transition: 1.3s;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        transition: 0.5s;
+        flex-direction: column;
+    }
+    .option-menu.responsive-out {
+        transform: translateX(-100%);
+        transition: 0.5s;
+    }
+}
