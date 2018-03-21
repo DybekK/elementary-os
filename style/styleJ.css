@@ -73,7 +73,7 @@
 	margin: 0px;
 	padding: 15px 25px 15px 25px;
 	transition: .3s ease;
-
+	cursor: pointer;
 }
 
 .button-outline-white {
@@ -190,5 +190,10 @@
 		margin: 4rem 0;
 		display: flex;
 	}
+
+}
+
+.input-height-of-button {
+		padding: 15px 25px 15px 25px;
 
 }
