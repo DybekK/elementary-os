@@ -9,9 +9,7 @@
 
 }
 
-.nasze-app-con {
-	background: #f7f7f7;
-}
+
 
 .podrecznik-con {
 	color: white;
@@ -190,10 +188,26 @@
 		margin: 4rem 0;
 		display: flex;
 	}
+	
+		.margin-bottom-only-on-mobile {
+		margin-bottom:2rem;
+		
+	}
+	.nasze-app-con {
+		box-shadow: none;
 
+	}
 }
 
 .input-height-of-button {
 		padding: 15px 25px 15px 25px;
 
 }
+
+
+
+.justify {
+	text-align: justify;
+}
+
+
