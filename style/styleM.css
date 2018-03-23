@@ -193,9 +193,20 @@
     }
 }
 
-@media only screen and (max-width: 1060px) {
+@media only screen and (max-width: 1090px) {
     .icon-socialmedia a {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 1119px){
+      .navbar{
+        font-size: 0.9em;
+    }
+}
+@media only screen and (max-width: 841px){
+    .navbar{
+        font-size: 0.8em;
     }
 }
 
